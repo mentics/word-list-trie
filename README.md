@@ -7,3 +7,7 @@ I wanted to generate a random passphrase with English words but was concerned ab
 This is not tested for correctness yet, but the preliminary results are interesting. 
 
 It compressed a 2.8M wordlist to 1.24M. After lz compression, that's ~600K -> ~160K.
+
+run:
+
+`npm/yarn/bun run index.ts`
